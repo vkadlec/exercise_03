@@ -1,0 +1,15 @@
+1. Calculate the computational complexity of this code segment.
+
+		operations	times
+1		2 (m + 1)	1
+2		2 (n + 1)	m
+3		1		mn
+4		2 (k + 1)	mn
+5		1		mnk
+6		1		mnk
+7		1		mn
+8		1		mn
+9		1		mn
+
+
+2m + 2 + 2mn + 2m + mn + 2mnk + 2mn + mnk + mnk + mn + mn + mn = 4mnk + 8mn + 4m + 2
